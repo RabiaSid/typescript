@@ -57,19 +57,56 @@
 
 //InterFaces
 
-interface Trasaction {
-    payerAccountNumber: number;
-    payeeAccountNumber: number;
-}
+// interface Trasaction {
+//     payerAccountNumber: number;
+//     payeeAccountNumber: number;
+// }
 
-interface BankAccount {
-    accountNUmber : number;
-    accountHolder: string;
-    balance: number;
-    inActive: boolean;
-    transaction: Trasaction[]
-} 
+// interface BankAccount {
+//     accountNUmber : number;
+//     accountHolder: string;
+//     balance: number;
+//     inActive: boolean;
+//     transaction: Trasaction[]
+// } 
 
-const bankAccount ={
-    accountNumber:
-}
+// const transaction1: Trasaction ={
+//     payerAccountNumber: 123,
+//     payeeAccountNumber: 321
+// }
+// const transaction2: Trasaction ={
+//     payerAccountNumber: 12345,
+//     payeeAccountNumber: 54321
+// }
+// const bankAccount :BankAccount = {
+//     accountNUmber : 123,
+//     accountHolder: 'john doe',
+//     balance: 4000,
+//     inActive: true,
+//     transaction: [transaction1,transaction2]
+// }
+
+
+// interface Book{
+//     name: string;
+//     price: number;
+// }
+
+// interface Ebook extends Book{
+//     fileSize: number;
+//     format: string;
+// }
+
+// interface AudioBook extends Ebook{
+//     duration: number;
+// }
+
+// const book: AudioBook = {
+//     name:'atomic habits',
+//     price: 25 ,
+//     fileSize: 2,
+//     format:'mnkj',
+//     duration:22
+
+
+// }
